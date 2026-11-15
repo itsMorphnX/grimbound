@@ -3,6 +3,22 @@ window.AURELITH_NEWS = {
  "_note": "Devlog, news and patch notes for the website (Home) and the launcher. Newest first. type: devlog | news | patch (patch entries carry a version). The lead adds one entry every build; tools/release/make_release.py --version X --patch-notes \"line; line\" adds the patch entry for you. After editing by hand run: python tools/release/make_release.py --news-only (rewrites news.js for file:// viewing and the launcher's fallback copy).",
  "news": [
   {
+   "id": "patch-0.2.8",
+   "date": "2026-11-15",
+   "type": "patch",
+   "version": "0.2.8",
+   "title": "Grimbound 0.2.8",
+   "summary": "The rebuilt Grimoire Crypt: a real dungeon with darkness and torchlight, a hub and two wings, keys and puzzles, the Lantern Page, a lower level, and a balcony where Vorhast watches you arrive. Plus: when a boss dies, its adds now die with it.",
+   "body": [
+    "The Grimoire Crypt is rebuilt: dark stone halls, torchlight, fog and the violet ink of the Name-Eater",
+    "A hub and two wings: small keys, locked doors, a push-block puzzle and the lectern puzzle",
+    "Brother Mortlock drops the Lantern Page: its light reveals hidden lines and an ink-door down to a lower level",
+    "Wind down the Well Stair to the Ink Cistern and the Hall of Lids, ride the Bone Lift back up",
+    "Find the Chaplain's Seal, open the boss door and see Vorhast watching from his pulpit before the fight",
+    "When a boss dies, its adds unravel into ink with it (no more fighting leftovers), also on your friends' screens"
+   ]
+  },
+  {
    "id": "patch-0.2.7",
    "date": "2026-11-15",
    "type": "patch",
