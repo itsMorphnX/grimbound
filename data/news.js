@@ -3,6 +3,23 @@ window.AURELITH_NEWS = {
  "_note": "Devlog, news and patch notes for the website (Home) and the launcher. Newest first. type: devlog | news | patch (patch entries carry a version). The lead adds one entry every build; tools/release/make_release.py --version X --patch-notes \"line; line\" adds the patch entry for you. After editing by hand run: python tools/release/make_release.py --news-only (rewrites news.js for file:// viewing and the launcher's fallback copy).",
  "news": [
   {
+   "id": "patch-0.2.7",
+   "date": "2026-11-15",
+   "type": "patch",
+   "version": "0.2.7",
+   "title": "Grimbound 0.2.7",
+   "summary": "Armour now shows on your hero: cloth, leather and plate looks at every rarity (Legendary is real gold with a glow), a helmet show/hide button in the Hero panel, friends see your armour in co-op, and every armour icon now matches what you wear.",
+   "body": [
+    "Armour shows on your hero: cloth robes, leather and plate, changing with every rarity",
+    "Legendary armour is real gold with a soft glow",
+    "Named sets wear teal with their own accent",
+    "Helmet: shown / hidden button in the Hero panel (Character tab)",
+    "only the helmet hides",
+    "Co-op: friends see the armour you wear",
+    "Every armour icon now matches the worn look, dyed by rarity (boots and gloves too)"
+   ]
+  },
+  {
    "id": "patch-0.2.6",
    "date": "2026-11-13",
    "type": "patch",
