@@ -2,6 +2,26 @@
   "_note": "Devlog, news and patch notes for the website (Home) and the launcher. Newest first. type: devlog | news | patch (patch entries carry a version). The lead adds one entry every build; tools/release/make_release.py --version X --patch-notes \"line; line\" adds the patch entry for you. After editing by hand run: python tools/release/make_release.py --news-only (rewrites news.js for file:// viewing and the launcher's fallback copy).",
   "news": [
     {
+      "id": "patch-0.2.9",
+      "date": "2026-11-15",
+      "type": "patch",
+      "version": "0.2.9",
+      "title": "Grimbound 0.2.9",
+      "summary": "The Vorhast boss update: readable wind-ups, the Mourners' Toll feint, a stagger bar, two group dances, a new second phase (Wearing the Chaplain), the Sermon entrance, weekly Hard and Mythic mutations, and the new Boss Journal on J.",
+      "body": [
+        "Vorhast, the Name-Eater, reworked: ink pools and name-rings warn you before his big attacks",
+        "watch for the Mourners' Toll (he feints on the second wail)",
+        "Stagger: fill his green gorge bar by reading names back and burning masks",
+        "he chokes for 8 s and takes +75% damage. Every other boss now has a stagger bar too (6 s, +50%)",
+        "Phase 1 dance: Read Each Other's Names. Phase 2 at 50%: Wearing the Chaplain, with ghost lanterns and Lantern Rites",
+        "The Sermon from the Pulpit: he reads your party's names before the fight",
+        "Hard and Mythic now roll weekly mutations: the same boss with a twist",
+        "Boss Journal: press J (or the Hero panel's Bosses tab): abilities unlock as you see them, loot, lore, this week's mutations, your best time",
+        "Attack is now left mouse (pad X)",
+        "J is the Boss Journal"
+      ]
+    },
+    {
       "id": "patch-0.2.8",
       "date": "2026-11-15",
       "type": "patch",
