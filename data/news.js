@@ -3,6 +3,21 @@ window.AURELITH_NEWS = {
  "_note": "Devlog, news and patch notes for the website (Home) and the launcher. Newest first. type: devlog | news | patch (patch entries carry a version). The lead adds one entry every build; tools/release/make_release.py --version X --patch-notes \"line; line\" adds the patch entry for you. After editing by hand run: python tools/release/make_release.py --news-only (rewrites news.js for file:// viewing and the launcher's fallback copy).",
  "news": [
   {
+   "id": "patch-0.2.10",
+   "date": "2026-11-15",
+   "type": "patch",
+   "version": "0.2.10",
+   "title": "Grimbound 0.2.10",
+   "summary": "Procs: buff icons with timers, empowered skills that lift with a rune ring, an ink burst when a proc fires, your gear procs finally visible, and 21 new reactive procs that unlock as you level and master weapons.",
+   "body": [
+    "Buff icons with countdown timers next to your health orb",
+    "When a proc powers up a skill, its button lifts with a turning rune ring",
+    "A small ink burst and the proc's name show over your hero when it fires (Wildfire, set bonuses, gear procs and more)",
+    "21 new reactive procs: your element's first at level 10, its second at level 25, and one per weapon at mastery rank 5 (see the Spells and Weapon tabs)",
+    "Procs work for friends in co-op too"
+   ]
+  },
+  {
    "id": "patch-0.2.9",
    "date": "2026-11-15",
    "type": "patch",
