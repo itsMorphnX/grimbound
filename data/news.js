@@ -3,6 +3,21 @@ window.AURELITH_NEWS = {
  "_note": "Devlog, news and patch notes for the website (Home) and the launcher. Newest first. type: devlog | news | patch (patch entries carry a version). The lead adds one entry every build; tools/release/make_release.py --version X --patch-notes \"line; line\" adds the patch entry for you. After editing by hand run: python tools/release/make_release.py --news-only (rewrites news.js for file:// viewing and the launcher's fallback copy).",
  "news": [
   {
+   "id": "news-reborn-0.3.0",
+   "date": "2026-11-16",
+   "type": "news",
+   "title": "Grimbound is being reborn: 0.3.0 is coming",
+   "summary": "Thank you for playtesting! Everything you have played so far taught us what Grimbound should become, and the next chapter is big.",
+   "body": [
+    "An open world: one connected kingdom to walk and ride across, with roaming enemies, camps, hidden places, day and night, and weather. Dungeons and bosses wait at real places on the map.",
+    "One weapon, one blank grimoire: pick your weapon and pour any element into it. Tank, heal or deal damage, decided by what you hold and how you build.",
+    "Mounts: ride stable breeds, big cats and more, and infuse them with the elements you have mastered.",
+    "Loadouts, artifacts and Chapters: switch whole builds in one click, chase legendary artifacts that grow with you, and earn your standing with the Chapters of the Codex.",
+    "A deeper story: grown-up, cinematic and personal. We will not say more yet.",
+    "0.2.10 stays playable until 0.3.0 arrives. Your current characters' gear will carry over to your new hero as a thank-you."
+   ]
+  },
+  {
    "id": "patch-0.2.10",
    "date": "2026-11-15",
    "type": "patch",
