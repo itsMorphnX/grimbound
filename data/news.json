@@ -2,6 +2,21 @@
   "_note": "Devlog, news and patch notes for the website (Home) and the launcher. Newest first. type: devlog | news | patch (patch entries carry a version). The lead adds one entry every build; tools/release/make_release.py --version X --patch-notes \"line; line\" adds the patch entry for you. After editing by hand run: python tools/release/make_release.py --news-only (rewrites news.js for file:// viewing and the launcher's fallback copy).",
   "news": [
     {
+      "id": "patch-0.3.1",
+      "date": "2026-11-18",
+      "type": "patch",
+      "version": "0.3.1",
+      "title": "Grimbound 0.3.1",
+      "summary": "Hotfix: a target box with Tab lock, and swings that no longer miss by a hair.",
+      "body": [
+        "The target box: a box on the left lists the foes in reach with their health. Press Tab (pad: D-pad down) to lock one, and every swing, skill and spell aims at it. Tab again moves to the next foe",
+        "Tab past the last one frees your aim",
+        "when your target dies the lock jumps to the nearest foe",
+        "Aim assist: without a lock, a near miss now bends onto the foe beside your cursor. Turn it off in Settings > Gameplay > Aim assist",
+        "Tab no longer opens the bag. The bag is on I"
+      ]
+    },
+    {
       "id": "patch-0.3.0",
       "date": "2026-11-18",
       "type": "patch",
